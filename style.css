@@ -2,7 +2,7 @@ body {
   font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(images/tower6.jpg);
+  background-image: url(images/Tower6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -62,9 +62,10 @@ section {
 
 section sheet {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   font-family: "Lugrasimo", cursive;
-  max-width: 500px;
+  max-width: 525px;
   margin: 20px auto;
   padding: 20px;
   color: black;
@@ -160,6 +161,7 @@ section sheet .text-shadow {
 }
 
 .art {
+  margin-top: 10px;
   border-radius: 50%;
   width: 80px;
   box-shadow: 0 0 3px 3px rgba(46, 204, 113, 0.5);
