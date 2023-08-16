@@ -202,9 +202,46 @@ section sheet .text-shadow {
 }
 
 /*Media Query*/
-
-@media screen and (min-width: 585px) {
+@media screen and (max-width: 525px) {
   body {
-    min-width: 90%;
+    max-width: 90%;
+  }
+
+  .Welcome h1 {
+    font-size: 2.5rem;
+  }
+
+  .profilepic-placement {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .profilepic {
+    max-width: 100%;
+    height: auto;
+  }
+  .list {
+    flex-direction: column;
+  }
+
+  .stats-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .Contact-links {
+    flex-direction: column;
+    align-items: center;
   }
 }
