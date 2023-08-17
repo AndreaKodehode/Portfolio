@@ -204,7 +204,7 @@ section sheet .text-shadow {
 /*Media Query*/
 @media screen and (max-width: 525px) {
   body {
-    max-width: 90%;
+    max-width: 100%;
     align-items: center;
   }
 
