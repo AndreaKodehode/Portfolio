@@ -180,7 +180,7 @@ section sheet .text-shadow {
 .card-img {
   width: 150px;
   height: auto;
-
+  border: solid 1px #957e32;
   border-radius: 10px;
 }
 
