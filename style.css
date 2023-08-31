@@ -118,7 +118,7 @@ section sheet .text-shadow {
   display: flex;
   justify-content: center;
 
-  gap: 5px;
+  gap: 1em;
 }
 
 /* About me - stats */
@@ -208,6 +208,11 @@ section sheet .text-shadow {
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+}
+.mail-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .Contact-anchor {
