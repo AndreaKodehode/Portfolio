@@ -31,11 +31,6 @@ body {
   padding: 0 20px;
 }
 
-.Welcome h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
 #word-shadow {
   color: aliceblue;
   text-shadow: 2px 2px 5px rgba(46, 204, 113, 1);
@@ -53,6 +48,11 @@ body {
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.5rem;
+}
+
+.Welcome img {
+  width: 400px;
+  height: auto;
 }
 /* About Me */
 
@@ -255,6 +255,11 @@ section sheet .text-shadow {
 
   .Welcome h1 {
     font-size: 2.5rem;
+  }
+
+  .Welcome img {
+    height: 300px;
+    width: auto;
   }
 
   .profilepic-placement {
