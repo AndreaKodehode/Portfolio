@@ -185,10 +185,13 @@ section sheet .text-shadow {
   display: flex;
   justify-content: space-between;
 }
-
+.card-box {
+  padding: 0 10px;
+  max-width: 300px;
+}
 .card-img {
-  width: 150px;
-  height: auto;
+  height: 150px;
+  width: auto;
   border: solid 1px #957e32;
   border-radius: 10px;
 }
@@ -210,11 +213,19 @@ section sheet .text-shadow {
 .button:hover {
   background-color: #2ecc71;
 }
+.project-h3 {
+  font-size: 1.4rem;
+}
+.project-paragraph {
+  font-size: 1.2rem;
+}
 
 /* Contact */
 .Contact {
   align-items: center;
+  height: 100vh;
 }
+
 .Contact-links {
   display: flex;
   flex-direction: column;
@@ -232,9 +243,14 @@ section sheet .text-shadow {
   max-width: 300px;
   margin: 0 auto;
 }
-
+form h3 {
+  color: #1f2113;
+  text-shadow: none;
+  font-size: 1.5rem;
+}
 .Contact-anchor {
   color: #fff;
+  font-size: 1.5rem;
   text-decoration: none;
   text-shadow: 1px 1px 1px black;
   padding: 5px 10px;
@@ -245,7 +261,9 @@ section sheet .text-shadow {
 .Contact-anchor:hover {
   background-color: #2ecc71;
 }
-
+.Contact-buttons {
+  padding: 10px;
+}
 /*Media Query*/
 @media screen and (max-width: 525px) {
   body {
