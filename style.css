@@ -51,7 +51,7 @@ body {
 }
 
 .Welcome img {
-  width: 400px;
+  max-width: 100%;
   height: auto;
 }
 /* About Me */
@@ -255,11 +255,6 @@ section sheet .text-shadow {
 
   .Welcome h1 {
     font-size: 2.5rem;
-  }
-
-  .Welcome img {
-    height: 300px;
-    width: auto;
   }
 
   .profilepic-placement {
