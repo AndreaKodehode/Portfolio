@@ -189,10 +189,10 @@ section sheet .text-shadow {
 .card-box {
   padding: 0 10px;
   background-image: url(/images/vector5.svg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   min-height: 380px;
-  min-width: 270px;
+  min-width: 280px;
 }
 .card-img {
   height: 100px;
