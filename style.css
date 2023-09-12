@@ -188,7 +188,7 @@ section sheet .text-shadow {
 
 .card-box {
   padding: 0 10px;
-  background-image: url(/images/vector5.svg);
+  background-image: url(images/vector5.svg);
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 380px;
