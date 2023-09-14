@@ -30,7 +30,9 @@ body {
   text-align: center;
   padding: 0 20px;
 }
-
+.welcome-img {
+  margin-top: 5%;
+}
 #word-shadow {
   color: aliceblue;
   text-shadow: 2px 2px 5px rgba(46, 204, 113, 1);
@@ -138,6 +140,45 @@ section sheet .text-shadow {
   border: 2px solid #957e32;
   border-radius: 10px;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.equipment {
+  padding: 10px;
+  background-color: #f3eee2;
+  border: 2px solid #957e32;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.equipment h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
+.equipment ul {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+.equipment li {
+  margin-bottom: 5px;
+}
+
+.equipment li strong {
+  display: inline-block;
+  width: 120px;
+  font-weight: normal;
+}
+
+.equipment li::before {
+  content: "•";
+  margin-right: 5px;
 }
 
 .stats h3 {
@@ -199,8 +240,11 @@ section sheet .text-shadow {
   width: auto;
   border: solid 1px #957e32;
   border-radius: 10px;
+  margin-right: 15%;
 }
-
+.project-buttons {
+  padding-right: 17%;
+}
 .button {
   display: inline-flex;
   padding: 10px 10px;
@@ -245,7 +289,7 @@ section sheet .text-shadow {
   padding: 1em;
   border-radius: 1em;
   border: solid 3px #957e32;
-  max-width: 300px;
+  width: 400px;
   margin: 0 auto;
 }
 form h3 {
@@ -267,7 +311,17 @@ form h3 {
   background-color: #2ecc71;
 }
 .Contact-buttons {
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.button-div {
+  display: flex;
+}
+
+.logo {
+  height: 30px;
+  border: solid 2px #957e32;
+  border-radius: 10px;
 }
 /*Media Query*/
 @media screen and (max-width: 525px) {
@@ -307,11 +361,13 @@ form h3 {
 
   .card-img {
     max-width: 100%;
-    height: auto;
   }
 
   .Contact-links {
     flex-direction: column;
     align-items: center;
+  }
+  .mail-form {
+    width: 300px;
   }
 }
