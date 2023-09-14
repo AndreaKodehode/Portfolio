@@ -425,16 +425,16 @@ form h3 {
     width: 400px;
   }
   section sheet {
-    max-width: 800px; /* Increase the max width of the sheet section */
-    font-size: 1.5rem; /* Increase the font size */
-    padding: 30px; /* Increase the padding */
+    max-width: 800px; 
+    font-size: 1.5rem; 
+    padding: 30px; 
   }
 
   section sheet h3 {
-    font-size: 2rem; /* Increase the heading font size */
+    font-size: 2rem; 
   }
 
   .text-shadow {
-    text-shadow: 2px 2px 2px white; /* Enhance the text shadow */
+    text-shadow: 2px 2px 2px white; 
   }
 }
