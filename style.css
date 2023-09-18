@@ -265,6 +265,10 @@ section sheet .text-shadow {
 .project-h3 {
   font-size: 2rem;
 }
+
+section h2 {
+  font-size: 2rem;
+}
 .project-paragraph {
   font-size: 1.3rem;
 }
@@ -299,6 +303,9 @@ form h3 {
 }
 .Contact-anchor {
   color: #fff;
+  border: solid 3px black;
+  border-radius: 5px;
+  font-weight: 600;
   font-size: 1.5rem;
   text-decoration: none;
   text-shadow: 1px 1px 1px black;
@@ -313,6 +320,7 @@ form h3 {
 .Contact-buttons {
   display: flex;
   justify-content: center;
+  gap: 1rem;
 }
 .button-div {
   display: flex;
@@ -425,16 +433,16 @@ form h3 {
     width: 400px;
   }
   section sheet {
-    max-width: 800px; 
-    font-size: 1.5rem; 
-    padding: 30px; 
+    max-width: 800px;
+    font-size: 1.5rem;
+    padding: 30px;
   }
 
   section sheet h3 {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
 
   .text-shadow {
-    text-shadow: 2px 2px 2px white; 
+    text-shadow: 2px 2px 2px white;
   }
 }
