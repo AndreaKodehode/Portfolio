@@ -72,7 +72,7 @@ body {
   width: auto;
   height: 225px;
   border-radius: 10px;
-  border: #420303 4px solid;
+  border: #bd7809 4px solid;
 }
 section {
   padding: 20px;
@@ -88,7 +88,7 @@ section sheet {
   padding: 20px;
   color: black;
   text-shadow: none;
-  border: 4px solid #420303;
+  border: 4px solid #bd7809;
   border-radius: 10px;
   background-color: #5d71136f;
   box-shadow: 0 0 10px rgba(93, 113, 19, 0.8);
@@ -124,7 +124,7 @@ section sheet .text-shadow {
 .info-box {
   padding: 5px;
   background-color: #f3eee2;
-  border: 4px solid #420303;
+  border: 4px solid #bd7809;
   border-radius: 10px;
 }
 
@@ -140,7 +140,7 @@ section sheet .text-shadow {
 .stats {
   padding: 10px;
   background-color: #f3eee2;
-  border: 4px solid #420303;
+  border: 4px solid #bd7809;
   border-radius: 10px;
   margin-top: 20px;
   display: flex;
@@ -151,7 +151,7 @@ section sheet .text-shadow {
 .equipment {
   padding: 10px;
   background-color: #f3eee2;
-  border: 4px solid #420303;
+  border: 4px solid #bd7809;
   border-radius: 10px;
   margin-top: 20px;
 }
@@ -241,7 +241,7 @@ section sheet .text-shadow {
 .card-img {
   height: 100px;
   width: auto;
-  border: solid 2px #420303;
+  border: solid 2px #bd7809;
   border-radius: 10px;
   margin-right: 15%;
 }
@@ -296,7 +296,7 @@ section h2 {
   background-color: #f3eee27e;
   padding: 1em;
   border-radius: 1em;
-  border: solid 4px #420303;
+  border: solid 4px #bd7809;
   width: 400px;
   margin: 0 auto;
 }
@@ -307,7 +307,7 @@ form h3 {
 }
 .Contact-anchor {
   color: #fff;
-  border: solid 3px #420303;
+  border: solid 3px #bd7809;
   border-radius: 5px;
   font-weight: 600;
   font-size: 1.5rem;
