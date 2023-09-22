@@ -91,19 +91,19 @@ section sheet {
   border: 4px solid #420303;
   border-radius: 10px;
   background-color: #5d71136f;
-  box-shadow: 0 0 10px rgba(22, 143, 72, 0.8);
+  box-shadow: 0 0 10px rgba(93, 113, 19, 0.8);
   animation: glowing 5s infinite;
 }
 
 @keyframes glowing {
   0% {
-    box-shadow: 0 0 10px rgba(22, 143, 72, 0.6);
+    box-shadow: 0 0 20px rgba(93, 113, 19, 0.4);
   }
   50% {
-    box-shadow: 0 0 50px rgba(22, 143, 72, 0.8);
+    box-shadow: 0 0 70px rgba(93, 113, 19, 1);
   }
   100% {
-    box-shadow: 0 0 10px rgba(22, 143, 72, 0.6);
+    box-shadow: 0 0 20px rgba(93, 113, 19, 0.4);
   }
 }
 
@@ -296,7 +296,7 @@ section h2 {
   background-color: #f3eee27e;
   padding: 1em;
   border-radius: 1em;
-  border: solid 3px #eabe61;
+  border: solid 3px #420303;
   width: 400px;
   margin: 0 auto;
 }
@@ -307,7 +307,7 @@ form h3 {
 }
 .Contact-anchor {
   color: #fff;
-  border: solid 3px black;
+  border: solid 3px #420303;
   border-radius: 5px;
   font-weight: 600;
   font-size: 1.5rem;
@@ -333,7 +333,7 @@ form h3 {
 
 .logo {
   height: 30px;
-  border: solid 2px #ffc400;
+  border: solid 2px #420303;
   border-radius: 10px;
 }
 /*Media Query*/
