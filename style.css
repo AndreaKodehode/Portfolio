@@ -330,11 +330,12 @@ form h3 {
 }
 .button-div {
   display: flex;
+  gap: 5px;
 }
 
 .logo {
   height: 30px;
-  border: solid 2px #420303;
+  border: solid 2px #bd7809;
   border-radius: 10px;
 }
 /*Media Query*/
