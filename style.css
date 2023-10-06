@@ -1,13 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Bungee", sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;
-  color: azure;
+  color: #f3eee2;
   text-shadow: 2px 2px 2px black;
   text-align: center;
   cursor: default;
 }
+.navbar {
+  background: linear-gradient(
+    to right,
+    rgba(243, 238, 226, 0.7) 0,
+    rgba(243, 238, 226, 0.9) 65%,
+    rgba(243, 238, 226, 0.7) 100%
+  );
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 10px 0px 25px 10px rgba(0, 0, 0, 0.3);
+}
+.nav-content {
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0 10px;
+  text-decoration: none;
+  -webkit-text-stroke: 1px black;
+  transition: transform 0.3s filter 0.3s;
+}
+
+.nav-item:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(2px 3px #2ecc71);
+}
+
 .container {
   width: 100%;
   background-image: url(images/tower6.jpg);
@@ -16,49 +52,106 @@ body {
   background-position: center center;
   background-attachment: fixed;
 }
-.border-btm {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  padding: 10px;
-  -webkit-text-stroke: 1px black;
+
+.Linear {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.01) 0%,
+    rgba(0, 0, 0, 0.3) 65%,
+    rgba(0, 0, 0, 0.01) 100%
+  );
 }
 
 /*Welcome*/
 
 .Welcome {
-  position: relative;
   height: 100vh;
   text-align: center;
   padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
-.welcome-img {
-  margin-top: 5%;
+
+.welcome-text {
+  text-align: left;
+  max-width: 55%;
 }
-#word-shadow {
-  color: aliceblue;
-  text-shadow: 2px 2px 5px rgba(46, 204, 113, 1);
+
+.welcome-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
 }
 
 .Welcome h1 {
-  font-size: 3rem;
-  font-weight: 500;
-  margin-bottom: 20px;
-  -webkit-text-stroke: 1px black;
-  font-weight: 600;
-}
-
-.Welcome p {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
   font-size: 1.5rem;
+  -webkit-text-stroke: 1px black;
+  line-height: 2.5rem;
+}
+.Welcome p {
+  font-size: 0.9rem;
+  -webkit-text-stroke: 1px black;
+}
+.Welcome img {
+  max-width: 40%;
 }
 
-.Welcome img {
-  max-width: 100%;
-  height: auto;
+#Welcome-img {
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: #2ecc71 0 0 10px;
 }
+
+#Welcome-logo {
+  max-width: 35%;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+.skill-link {
+  text-decoration: none;
+  text-align: center;
+  max-width: 60%;
+}
+.skill {
+  width: 100%;
+  height: auto;
+  filter: invert(85%) drop-shadow(1px 2px black);
+  transition: filter 0.3s, transform;
+}
+
+.figma-hover:hover {
+  transform: scale(1.2);
+  filter: invert(85%) drop-shadow(2px 3px rgba(255, 136, 0, 0.7));
+}
+
+.html-hover:hover {
+  transform: scale(1.2);
+  filter: invert(85%) drop-shadow(2px 3px rgb(255, 157, 0));
+}
+
+.css-hover:hover {
+  transform: scale(1.2);
+  filter: invert(85%) drop-shadow(2px 3px rgb(0, 0, 255));
+}
+
+.javascript-hover:hover {
+  transform: scale(1.2);
+  filter: invert(85%) drop-shadow(2px 3px rgb(255, 255, 0));
+}
+
+.react-hover:hover {
+  transform: scale(1.2);
+  filter: invert(85%) drop-shadow(2px 3px rgb(0, 179, 255));
+}
+
 /* About Me */
 
 .profilepic-placement {
@@ -251,7 +344,7 @@ section sheet .text-shadow {
 .button {
   display: inline-flex;
   padding: 10px 10px;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -266,8 +359,9 @@ section sheet .text-shadow {
   background-color: #2ecc71;
 }
 .project-h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 0px;
+  -webkit-text-stroke: 1px black;
 }
 
 section h2 {
@@ -275,7 +369,8 @@ section h2 {
   -webkit-text-stroke: 1px black;
 }
 .project-paragraph {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
+  -webkit-text-stroke: 1px black;
 }
 
 /* Contact */
@@ -304,14 +399,14 @@ section h2 {
 form h3 {
   color: #1f2113;
   text-shadow: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .Contact-anchor {
   color: #fff;
   border: solid 3px #bd7809;
   border-radius: 5px;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 0.7rem;
   text-decoration: none;
   text-shadow: 1px 1px 1px black;
   padding: 5px 10px;
@@ -345,8 +440,25 @@ form h3 {
     align-items: center;
   }
 
+  .Welcome {
+    grid-template-columns: 1fr; /* Display in a single column */
+    text-align: center;
+    gap: 0;
+  }
+
   .Welcome h1 {
-    font-size: 2.5rem;
+    margin-top: 0;
+  }
+
+  .welcome-text {
+    max-width: 100%; /* Full width for text */
+    padding: 0 20px; /* Add padding for better readability */
+  }
+
+  .welcome-images {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .profilepic-placement {
@@ -388,16 +500,6 @@ form h3 {
 }
 
 @media screen and (min-width: 1500px) {
-  .Welcome h1 {
-    font-size: 5rem;
-  }
-
-  .welcome-img {
-    width: 50rem;
-  }
-  .Welcome p {
-    font-size: 3rem;
-  }
   .profilepic {
     height: 350px;
   }

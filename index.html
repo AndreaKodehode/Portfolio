@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Raleway:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Lugrasimo&display=swap"
       rel="stylesheet"
     />
     <script>
@@ -18,17 +18,69 @@
     <title>Andrea's Portfolio</title>
   </head>
   <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-content">
+        <a href="#Home" class="nav-item">Home</a>
+        <a href="#About" class="nav-item">About Me</a>
+        <a href="#Project" class="nav-item">Projects</a>
+        <a href="#Contact" class="nav-item">Contact</a>
+      </div>
+    </nav>
     <div class="container">
-      <section class="Welcome">
-        <img src="images/group2.svg" alt="" class="welcome-img" />
-        <h1>
-          My name is <span id="word-shadow">Andrea</span> and i'm a junior
-          frontend developer
-        </h1>
-        <p>Scroll down adventurer▼</p>
+      <section class="Welcome Linear" id="Home">
+        <div class="welcome-images">
+          <img src="images/group2.svg" alt="" id="Welcome-logo" />
+          <img src="/images/IMG_0006.jpg" alt="" id="Welcome-img" />
+        </div>
+        <div class="welcome-text">
+          <h1>
+            Andrea <br />
+            Designer <br />
+            Front End Dev
+          </h1>
+          <p>
+            Welcome to my page! i'm Andrea, a junior front end developer with
+            skills in HTML, CSS, JaVascript and react. i've also got experience
+            with Adobe software and a background in media production. <br />
+            scroll down to see more ▼
+          </p>
+          <div class="skills">
+            <a href="" class="skill-link">
+              <img
+                src="images/figma-main.svg"
+                alt=""
+                class="skill figma-hover"
+              />
+            </a>
+            <a href="" class="skill-link">
+              <img
+                src="images/html5-main.svg"
+                alt=""
+                class="skill html-hover"
+              />
+            </a>
+            <a href="" class="skill-link">
+              <img src="images/css3-main.svg" alt="" class="skill css-hover" />
+            </a>
+            <a href="" class="skill-link">
+              <img
+                src="images/square-js-main.svg"
+                alt=""
+                class="skill javascript-hover"
+              />
+            </a>
+            <a href="" class="skill-link">
+              <img
+                src="images/react-main.svg"
+                alt=""
+                class="skill react-hover"
+              />
+            </a>
+          </div>
+        </div>
       </section>
 
-      <section>
+      <section id="About" class="Linear">
         <h2 class="border-btm">About Me</h2>
         <div class="aboutme-box">
           <sheet>
@@ -139,7 +191,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="Project" class="Linear">
         <h2>Projects</h2>
         <div class="card">
           <div class="card-box">
@@ -178,9 +230,7 @@
                 class="button"
                 >Github Repo</a
               >
-              <a
-                href="https://andreakhcalculator.netlify.app/"
-                class="button"
+              <a href="https://andreakhcalculator.netlify.app/" class="button"
                 >Travel to page</a
               >
             </div>
@@ -188,7 +238,7 @@
         </div>
       </section>
 
-      <section class="Contact">
+      <section class="Contact Linear" id="Contact">
         <h2 class="border-btm">Contact me!</h2>
         <div class="Contact-links">
           <form
